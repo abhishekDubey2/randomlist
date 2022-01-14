@@ -68,11 +68,6 @@ a {
 p {
   color: var(--clr-grey-3);
 }
-@media screen and (min-width: 800px) {
-  body {
-    font-size: 1rem;
-  }
-}
 /*  
 Global Classes 
 */
@@ -311,4 +306,30 @@ margin-left: 15px;
   .icon {
     font-size: 2rem;
   }
+  body {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 800px) {
+
+}
+@media screen and (max-width: 321px){
+  .values-list {
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    margin-left: 28px;
+  }
+  .user-msg {
+    margin-left: 0;
+    float: right;
+}
+.user-title {
+  font-size: 11px;
+}
+.user-value {
+  font-size: 11px;
+}
+.user-name {
+  top: 66px;
+}
 }
